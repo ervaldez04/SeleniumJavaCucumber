@@ -1,0 +1,6 @@
+stepDefinitions/SearchPage.class
+stepDefinitions/LoginPage.class
+testRunner/Runner.class
+dataProvider/ConfigFileReader.class
+stepDefinitions/BankPage.class
+stepDefinitions/Dashboard.class

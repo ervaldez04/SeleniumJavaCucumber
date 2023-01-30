@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.Runner
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 59.865 s <<< FAILURE! - in testRunner.Runner
+Should be able to fail test(Google Search)  Time elapsed: 4.044 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Test Automation[s] - Google Search> but was:<Test Automation[] - Google Search>
+
+Should fail test(Login Functionality)  Time elapsed: 7.534 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='title'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/hg/d8_bz3cx2zg...}, goog:chromeOptions: {debuggerAddress: localhost:49635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49635/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e0b57144a92a2100f1382f21ecd9d07
+
+Test will fail(Sort Functionality)  Time elapsed: 1.859 s  <<< FAILURE!
+java.lang.AssertionError
+
